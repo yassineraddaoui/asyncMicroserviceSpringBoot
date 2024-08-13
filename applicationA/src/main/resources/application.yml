@@ -6,7 +6,7 @@ spring:
   cloud:
     stream:
       bindings:
-        send-out-0:
+        sendCommunication-out-0:
           destination: send-communication
   rabbitmq:
     host: localhost
